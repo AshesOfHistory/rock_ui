@@ -2,3 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 yarn test:nowatch && yarn lint
+
+[ -n "$CI" ] && exit 0
