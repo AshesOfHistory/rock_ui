@@ -7,7 +7,7 @@ export type ThemeProps = 'primary' | 'secondary' | 'success' | 'info' | 'warning
 export interface IconProps extends FontAwesomeIconProps {
   /** 设置 Icon 的图标的主题 */
   theme?: ThemeProps
-  /** 设置 Icon 的图标的类型，具体类型请参考 [fontawesome官网](https://fontawesome.com/icons?d=gallery&p=2&m=free) */
+  /** 设置 Icon 的图标的类型，具体类型请参考 [fontawesome官网](https://fontawesome.dashgame.com/) */
 }
 
 const Icon: React.FC<IconProps> = (props) => {
